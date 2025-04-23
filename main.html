@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Divyansh Pal Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+        <p id="typing-text"></p>
+        <button class="btn" onclick="toggleDarkMode()">Toggle Dark Mode</button>
+    </header>
+
+    <section id="introduction" class="container">
+        <h2>Introduction to Web Technologies</h2>
+        <p>Web technologies are tools used to develop websites and web applications. They include:</p>
+        <div class="cards">
+            <div class="card">
+                <h3>HTML</h3>
+                <p>Defines the structure of web pages.</p>
+            </div>
+            <div class="card">
+                <h3>CSS</h3>
+                <p>Styles and formats web content.</p>
+            </div>
+            <div class="card">
+                <h3>JavaScript</h3>
+                <p>Adds interactivity and dynamic behavior.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="profile" class="container">
+        <h2>Personal Profile</h2>
+        <div class="profile-container">
+            <img src="profile.jpg" alt="Profile Picture">
+            <div>
+                <p><strong>Name:</strong> Divyansh Pal</p>
+                <p><strong>Bio:</strong> Hello Everyone! <br>
+
+                    I'm currently an undergrad student of Computer Science and Design Engineering at Rajiv Gandhi Institute of Petroleum Technology (RGIPT).
+                     
+                    From a young age, I developed a deep interest in Software, Technology and Computer Science when I was introduced to languages like Q-BASIC, GW-BASIC, Scratch, Python and HTML in my Primary and Junior School Computer Science classes. Apart from my passion for Computer Science, I'm also interested in Mathematics, Geopolitics, History and Sports. These additional interests help me to approach problem-solving from a multiple perspective and provide a well-rounded approach to learning and personal growth.
+                    </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="container">
+        <h2>Education & Skills</h2>
+        <table>
+            <tr>
+                <th>Degree</th>
+                <th>Institution</th>
+                <th>Year</th>
+            </tr>
+            <tr>
+                <td>Bachelor's of Technology</td>
+                <td>Rajiv Gandhi Institute Of Petroleum Technology</td>
+                <td>2023-27</td>
+            </tr>
+            <tr>
+                <td>Intermediate, PCM</td>
+                <td>Rani Laxmi Bai Memorial School</td>
+                <td>2021-22</td>
+            </tr>
+            <tr>
+                <td>High School</td>
+                <td>Rani Laxmi Bai Memorial School</td>
+                <td>2019-20</td>
+            </tr>
+
+        </table>
+
+        <h3>Skills</h3>
+        <div class="skill">
+            <p>HTML</p>
+            <div class="progress"><div class="progress-bar" style="width: 90%;">90%</div></div>
+        </div>
+        <div class="skill">
+            <p>CSS</p>
+            <div class="progress"><div class="progress-bar" style="width: 85%;">85%</div></div>
+        </div>
+        <div class="skill">
+            <p>JavaScript</p>
+            <div class="progress"><div class="progress-bar" style="width: 75%;">75%</div></div>
+        </div>
+    </section>
+
+    <section id="interactive" class="container">
+        <h2>Interactive Features</h2>
+        <button class="btn" onclick="generateQuote()">Generate Random Quote</button>
+        <p id="quote"></p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
